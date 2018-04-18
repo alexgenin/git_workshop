@@ -1,0 +1,24 @@
+#!/usr/bin/presmaker 
+
+# Info file for this presentation
+author="$USER"
+nparts=3
+presdate="$(date +%d\\/%m\\/%Y)"
+
+# build-related variables, likely not to be changed
+FILESDIR='./slides'
+RESDIR='./res'
+OUTFILE="$(pwd)/slides.pdf"
+RASTERMAXRES='1280'
+
+
+# Valid tags reminder: 
+# date          ##DATE##
+# author        ##AUTHOR##
+# total pages   ##TP##
+# curr page     ##CP##
+# 
+# Please escape special chars
+# 
+
+
